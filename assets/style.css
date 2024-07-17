@@ -1,0 +1,97 @@
+
+/*format screen*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Onest", sans-serif;
+    box-sizing: border-box;
+}
+
+/*full screen*/
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: #f5f5f5;
+}
+
+/* all left side */
+.left-div {
+    width: 60vw;
+    background-image: url("img-background.jpg");
+    background-size: 100%;
+}
+
+/* all right side */
+.right-div {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*logo / title/ button*/
+.div-box {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 30px;
+    margin-bottom: 70px;
+}
+
+/*logo*/
+.logo {
+    width: 10vw;
+    margin-bottom: 30px;
+}
+
+/*title*/
+.title {
+    color: #070707;
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/*button*/
+.button {
+    width: 40%;
+    padding: 12px 0 12px 0;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    background: #105134;
+    cursor: pointer;
+}
+
+/*effect when mouse over button*/
+.button:hover {
+    background: #196d47;
+    transition: all 0.5s ease-out;
+}
+
+/*footer*/
+.div-footer {
+    background: #105134;
+    margin: 0;
+    bottom: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    padding: 12px;
+}
+
+/*Developed by Witor Linhares*/
